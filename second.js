@@ -21,8 +21,8 @@ window.addEventListener("load", ()=> {
         <code>
     {
       "word": "${word.text}",
-      "translate": "${word.translate}"
-      "pronunciation": "${word.pronunciation}",
+      "translate": "${word.translate}",
+      "pronunciation": "${word.pronunciation}"
     },
         </code>
       </pre>

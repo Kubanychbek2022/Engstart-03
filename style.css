@@ -150,6 +150,21 @@ margin-bottom: 18px;
   display: block;
 }
 
+.present-window {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgb(31, 31, 154);
+}
+
+.presents {
+  text-align: center;
+  margin-top: 80px;
+  color: #fff;
+}
+
+
 
 /* Styles of second.html */
 

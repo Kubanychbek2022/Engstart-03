@@ -44,4 +44,28 @@ window.addEventListener("load", () => {
     }
     xhr.send();
   }
+
+  function greetForTime () {
+    const time = new Date();
+    const hour = time.getHours();
+    const titleTime = document.querySelector(".time");
+
+    
+  if (hour>=4 && hour<=11) {
+    titleTime.innerText = "Good morning";
+  } else if (hour>=11 && hour<=15) {
+    titleTime.innerText = "Good afternoon";
+  } else if (hour>= 15 && hour<=23) {
+    titleTime.innerText = "Good evening";
+  } else {
+    titleTime.innerText = "Good night";
+  }
+
+  }
+
+  greetForTime();
+
+  setTimeout(() => {
+    document.querySelector(".present-window").remove();
+  }, 4000);
 });
